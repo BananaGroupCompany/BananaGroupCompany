@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="bananagroup.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+     
+        <!-- tạo phần header đấu trang -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+          
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Trang chủ</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Mua cổ phần</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Rocket Game</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Liên hệ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">B</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" style="color:white;border-color: white; "type="submit" >Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+<!-- tạo body -->
+
+<!-- phần 1 -->
+
+
+<div class="part1">
+      <div class="part1-1">
+        <div class="hang-the-1">
+          <!-- ứng viên 1 -->
+          <div class="the">
+              <!-- tạo thông tin và ảnh trong thẻ -->
+              <div class="the-anh" style="background-image: url(https://scontent.fhan4-3.fna.fbcdn.net/v/t1.6435-1/p200x200/124385842_869695610464967_2485829991981068605_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=ypPUjwGksLMAX8U2uEb&tn=AI_HyBKRk2Q223iz&_nc_ht=scontent.fhan4-3.fna&oh=5593dea019f428ec6d86d5c8b38a4c05&oe=6187A68C);">
+                  <!-- tạo khung tên -->
+                  <div class="khungten sup" style="left:-5px">
+                      <!-- tạo icon trước tên  -->
+                      <i class="fab fa-facebook iconfacebook"></i>
+                      <!-- tạo nút kèm link facebook -->
+                          <a href="https://www.facebook.com/trankhoi3921"  class="ten">Trần Anh Khôi</a>
+                                   <!--tạo icon trước phần thông tin chi tiết  -->
+        
+         <div class="icon-thong-tin">
+          <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+          <a class="ten" style="position: relative; top:1px;left:-5px;" onclick="HATRANG();">Thông tin chi tiêt</a>
+      </div>
+  
+                  </div>
+              </div>
+          </div>
+          <!-- ứng viên 2 -->
+          <div class="the">
+              <div class="the-anh" style="background-image: url(https://scontent.fhan4-3.fna.fbcdn.net/v/t1.6435-1/s200x200/164501152_899379360859182_8827211837362155641_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=7206a8&_nc_ohc=iLFdSAwEAK4AX80pSl4&_nc_ht=scontent.fhan4-3.fna&oh=5b956580cca139abcbd27b2e59ce9d62&oe=6188A4C4);">
+                  <div class="khungten sup" style="left:-5px">
+                      <!-- tạo icon trước tên  -->
+                      <i class="fab fa-facebook iconfacebook"></i>
+                      <!-- tạo nút kèm link facebook -->
+                          <a href="https://www.facebook.com/profile.php?id=100023613786601"class="ten">Nguyễn Thị Thảo</a>
+                           <!--tạo icon trước phần thông tin chi tiết  -->
+          
+           <div class="icon-thong-tin">
+              <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+              <a class="ten" style="position: relative; top:1px;left:-5px;" onclick="PHUONGANH();">Thông tin chi tiêt</a>
+          </div>
+  
+                  </div>
+              </div>
+          </div>
+          <!-- ứng viên 3 -->
+          <div class="the">
+              <div class="the-anh" style="background-image: url(https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-1/c0.52.200.200a/p200x200/127915409_816768198896762_4057747484192292392_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=05Vpas4dym8AX_3FPVB&_nc_ht=scontent.fhan3-3.fna&oh=dacbdaa294294538d4bc2232e906e08c&oe=61892E6C);">
+                  <div class="khungten sup" style="left:-5px">
+                      <!-- tạo icon trước tên  -->
+                      <i class="fab fa-facebook iconfacebook"></i>
+                      <!-- tạo nút kèm link facebook -->
+                          <a href="https://www.facebook.com/myy.dunn"class="ten">Đỗ Mỹ Dung</a>
+                       <!--tạo icon trước phần thông tin chi tiết  -->
+          
+           <div class="icon-thong-tin">
+              <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+              <a class="ten" style="position: relative; top:1px;left:-5px;"onclick="();">Thông tin chi tiêt</a>
+          </div>
+  
+                  </div>
+              </div>
+          </div>
+          <!-- ứng viên 4 -->
+          <div class ="the">
+              <div class="the-anh" style="background-image: url(https://scontent.fhan4-3.fna.fbcdn.net/v/t1.6435-1/p200x200/151286099_783793615877801_2316339578462785838_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=obT3RhGTN80AX-Ykgxd&_nc_ht=scontent.fhan4-3.fna&oh=2db7ac2909af3c59c9e296df43f5a5cd&oe=6186BA1B);">
+                  <div class="khungten sup" style="left:-5px">
+                      <!-- tạo icon trước tên  -->
+                      <i class="fab fa-facebook iconfacebook"></i>
+                      <!-- tạo nút kèm link facebook -->
+                          <a href="https://www.facebook.com/cuthuyhanh"class="ten">Cù Thúy Hạnh</a>
+                           <!--tạo icon trước phần thông tin chi tiết  -->
+          
+           <div class="icon-thong-tin">
+              <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+              <a class="ten" style="position: relative; top:1px;left:-5px;" onclick="HATRANG();">Thông tin chi tiêt</a>
+          </div>
+  
+                  </div>
+              </div>
+          </div>
+          <!-- ứng viên 5 -->
+          <div class="the">
+              <div class="the-anh" style="background-image: url(https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/90391301_890406468051896_5770984604575989760_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=ad2b24&_nc_ohc=Xn57JcIPj0kAX8Z5L0u&tn=AI_HyBKRk2Q223iz&_nc_ht=scontent.fhan3-3.fna&oh=3ae5ebe89f3c837d424ad79836612c1b&oe=6188D500);">
+                  <div class="khungten sup" style="left:-5px">
+                      <!-- tạo icon trước tên  -->
+                      <i class="fab fa-facebook iconfacebook"></i>
+                      <!-- tạo nút kèm link facebook -->
+                          <a href="https://www.facebook.com/minh8aks"class="ten">Bùi Ngọc Minh</a>
+                           <!--tạo icon trước phần thông tin chi tiết  -->
+          
+           <div class="icon-thong-tin">
+              <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+              <a class="ten" style="position: relative; top:1px;left:-5px;" onclick="KHANHLINH();">Thông tin chi tiêt</a>
+          </div>
+  
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- tạo hàng thẻ 2 -->
+      <div class="hang-the-1">
+        <!-- ứng viên 6 -->
+        <div class="the" style="top:180px;">
+            <!-- tạo thông tin và ảnh trong thẻ -->
+            <div class="the-anh" style="background-image: url(https://scontent.fhan4-1.fna.fbcdn.net/v/t1.6435-9/240731439_1753155208202601_4274395042390242518_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=HRcWINjSLfEAX-eN4qS&_nc_ht=scontent.fhan4-1.fna&oh=e4c061e7bcecd94627cdd69077ba5a93&oe=618A0122);">
+                <!-- tạo khung tên -->
+                <div class="khungten sup" style="left:-5px">
+                    <!-- tạo icon trước tên  -->
+                    <i class="fab fa-facebook iconfacebook"></i>
+                    <!-- tạo nút kèm link facebook -->
+                        <a href="https://www.facebook.com/profile.php?id=100005244160169"  class="ten">Nguyễn Linh Chi</a>
+
+                        <div class="icon-thong-tin">
+                          <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+                          <a class="ten" style="position: relative; top:1px;left:-5px;" onclick="PHUONGANH();">Thông tin chi tiêt</a>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!-- ứng viên 7 -->
+        <div class="the" style="top:180px;">
+            <div class="the-anh" style="background-image: url(https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-1/p200x200/184834623_219133826769966_5439886420661472873_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=WpqObbrVGJUAX83QBg_&_nc_ht=scontent.fhan3-4.fna&oh=93adb943e08e4148b683a14532a44e48&oe=61683A23);">
+                <div class="khungten sup" style="left:-5px">
+                    <!-- tạo icon trước tên  -->
+                    <i class="fab fa-facebook iconfacebook"></i>
+                    <!-- tạo nút kèm link facebook -->
+                        <a href="https://www.facebook.com/loan.moon.194"class="ten">Trần Thị Loan</a>
+                         <!--tạo icon trước phần thông tin chi tiết  -->
+        
+         <div class="icon-thong-tin">
+            <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+            <a class="ten" style="position: relative; top:1px;left:-5px;" onclick="PHUONGANH();">Thông tin chi tiêt</a>
+        </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- ứng viên 8 -->
+        <div class="the" style="top:180px;">
+            <div class="the-anh" style="background-image: url(https://scontent.fhan3-5.fna.fbcdn.net/v/t1.6435-1/p200x200/139710232_1119083628517511_697126759856822646_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=WObYJM9DBV8AX9JzsCn&_nc_ht=scontent.fhan3-5.fna&oh=4122bd12bc120c945f8c27de44361f74&oe=618A2F55);">
+                <div class="khungten sup" style="left:-5px">
+                    <!-- tạo icon trước tên  -->
+                    <i class="fab fa-facebook iconfacebook"></i>
+                    <!-- tạo nút kèm link facebook -->
+                        <a href="https://www.facebook.com/A.02962656"class="ten">Vũ Đức Anh</a>
+                     <!--tạo icon trước phần thông tin chi tiết  -->
+        
+         <div class="icon-thong-tin">
+            <i class="fas fa-check-circle" style="position: relative; top:5px;"></i>
+            <a class="ten" style="position: relative; top:1px;left:-5px;"onclick="();">Thông tin chi tiêt</a>
+        </div>
+
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+      </div>
+  </div>
+  
+
+
+
+
+<!-- tạo footer icon -->
+<div class="icon">
+    <footer class=" text-center text-white" style="background-color: #45637D;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+      </footer>
+</div>
+
+
+    <!-- tạo thẻ footer để chứa phần thông tin liên hệ ở cuối trang -->
+<div class="footer">
+    <footer class="text-center text-white" style="background-color: #45637d;">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Iframe -->
+          <section class="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    class="shadow-1-strong rounded"
+                    src="video/video.mp4"
+                    title="YouTube video"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Iframe -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          Một sản phẩm của tập đoàn:
+          <a class="text-white" href="https://mdbootstrap.com/" style="text-decoration: none;position: absolute;">
+          <div class="banana"></div>
+          </a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</div>
+</body>
+</html>
